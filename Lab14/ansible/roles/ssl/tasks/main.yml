@@ -1,0 +1,4 @@
+- name: Install OpenSSL
+  yum:
+    name: openssl
+    state: present
